@@ -3,47 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: IRB_protocol.aux
 The style file: chicago.bst
 Database file #1: references.bib
-Warning--there's a number but no series in robinson1995elements
-Warning--empty publisher in robinson1995elements
-You've used 16 entries,
+You've used 6 entries,
             2861 wiz_defined-function locations,
-            728 strings with 7542 characters,
-and the built_in function-call counts, 11960 in all, are:
-= -- 938
-> -- 1004
-< -- 3
-+ -- 306
-- -- 336
-* -- 1137
-:= -- 2213
-add.period$ -- 49
-call.type$ -- 16
-change.case$ -- 123
-chr.to.int$ -- 16
-cite$ -- 18
-duplicate$ -- 306
-empty$ -- 677
-format.name$ -- 384
-if$ -- 2210
+            657 strings with 5787 characters,
+and the built_in function-call counts, 4091 in all, are:
+= -- 327
+> -- 312
+< -- 0
++ -- 94
+- -- 108
+* -- 374
+:= -- 766
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 42
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 106
+empty$ -- 246
+format.name$ -- 124
+if$ -- 744
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 83
-num.names$ -- 160
-pop$ -- 106
+missing$ -- 8
+newline$ -- 33
+num.names$ -- 60
+pop$ -- 33
 preamble$ -- 1
-purify$ -- 224
+purify$ -- 80
 quote$ -- 0
-skip$ -- 317
+skip$ -- 115
 stack$ -- 0
-substring$ -- 570
-swap$ -- 99
-text.length$ -- 3
+substring$ -- 209
+swap$ -- 32
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
-warning$ -- 2
-while$ -- 151
+type$ -- 100
+warning$ -- 0
+while$ -- 59
 width$ -- 0
-write$ -- 216
-(There were 2 warnings)
+write$ -- 81
