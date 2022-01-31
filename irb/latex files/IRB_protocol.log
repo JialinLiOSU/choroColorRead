@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.9)  31 JAN 2022 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.9)  31 JAN 2022 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,38 +373,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: No \author given.
 
+<../figures//us_RdBu_6_pos_large.jpg, id=42, 408.3255pt x 232.7094pt>
+File: ../figures//us_RdBu_6_pos_large.jpg Graphic file (type jpg)
+<use ../figures//us_RdBu_6_pos_large.jpg>
+Package pdftex.def Info: ../figures//us_RdBu_6_pos_large.jpg  used on input line 32.
+(pdftex.def)             Requested size: 422.77664pt x 240.95035pt.
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 54.
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <../figures//us_RdBu_6_pos_large.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 59.
  (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [2]
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 60.
+(Font)              <12> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 60.
- [3] [4] (./IRB_protocol.bbl) [5] (./IRB_protocol.aux)
+(Font)              <5> on input line 65.
+ [3] [4] [5] (./IRB_protocol.bbl) [6] (./IRB_protocol.aux)
 Package rerunfilecheck Info: File `IRB_protocol.out' has not changed.
 (rerunfilecheck)             Checksum: C1EE5D01234521A6C435632C6B5393C9;935.
  ) 
 Here is how much of TeX's memory you used:
- 11150 strings out of 478579
- 168853 string characters out of 5857458
- 488713 words of memory out of 5000000
- 28850 multiletter control sequences out of 15000+600000
+ 11169 strings out of 478579
+ 169309 string characters out of 5857458
+ 490791 words of memory out of 5000000
+ 28864 multiletter control sequences out of 15000+600000
  429653 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,8n,83p,1585b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,8n,83p,1586b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IRB_protocol.pdf (5 pages, 59146 bytes).
+Output written on IRB_protocol.pdf (6 pages, 262599 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
