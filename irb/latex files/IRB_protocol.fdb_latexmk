@@ -1,18 +1,18 @@
 # Fdb version 3
-["bibtex IRB_protocol"] 1643655102 "IRB_protocol.aux" "IRB_protocol.bbl" "IRB_protocol" 1643658001
-  "IRB_protocol.aux" 1643658000 2556 7caaad906d4e85986dd12d0aed72dba0 "pdflatex"
+["bibtex IRB_protocol"] 1643655102 "IRB_protocol.aux" "IRB_protocol.bbl" "IRB_protocol" 1643664122
+  "IRB_protocol.aux" 1643664120 2556 7caaad906d4e85986dd12d0aed72dba0 "pdflatex"
   "c:/texlive/2021/texmf-dist/bibtex/bst/chicago/chicago.bst" 1636431394 37416 2ae04276c51f11eda70770f4081293b7 ""
   "references.bib" 1643649322 6418 d5a32c78482ac0d379eebefdef6ff9f2 ""
   (generated)
   "IRB_protocol.blg"
   "IRB_protocol.bbl"
-["pdflatex"] 1643657997 "c:/Users/jiali/Desktop/choroColorRead/irb/latex files/IRB_protocol.tex" "IRB_protocol.pdf" "IRB_protocol" 1643658001
+["pdflatex"] 1643664115 "c:/Users/jiali/Desktop/choroColorRead/irb/latex files/IRB_protocol.tex" "IRB_protocol.pdf" "IRB_protocol" 1643664122
   "../figures//us_RdBu_6_pos_large.jpg" 1643211360 202934 c80ebfc5b6f1f933f91d6faa400005cc ""
-  "IRB_protocol.aux" 1643658000 2556 7caaad906d4e85986dd12d0aed72dba0 "pdflatex"
+  "IRB_protocol.aux" 1643664120 2556 7caaad906d4e85986dd12d0aed72dba0 "pdflatex"
   "IRB_protocol.bbl" 1643655103 1593 e3449c6f6a3553e8b3624a9033ab312b "bibtex IRB_protocol"
-  "IRB_protocol.out" 1643658000 935 c1ee5d01234521a6c435632c6b5393c9 "pdflatex"
-  "IRB_protocol.tex" 1643657995 20291 05cf465b85421845e2d5c2c84dffeb8d ""
-  "c:/Users/jiali/Desktop/choroColorRead/irb/latex files/IRB_protocol.tex" 1643657995 20291 05cf465b85421845e2d5c2c84dffeb8d ""
+  "IRB_protocol.out" 1643664120 935 c1ee5d01234521a6c435632c6b5393c9 "pdflatex"
+  "IRB_protocol.tex" 1643664112 20399 0969cb79159a7c6951650f7d69027669 ""
+  "c:/Users/jiali/Desktop/choroColorRead/irb/latex files/IRB_protocol.tex" 1643664112 20399 0969cb79159a7c6951650f7d69027669 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1636432326 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1636433103 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1636438794 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -125,7 +125,7 @@
   "c:/texlive/2021/texmf.cnf" 1636440079 713 e69b156964470283e0530f5060668171 ""
   "preambles.tex" 1632448162 1334 03b082d359916cdf5c653ade4af4ba58 ""
   (generated)
-  "IRB_protocol.aux"
-  "IRB_protocol.pdf"
   "IRB_protocol.out"
+  "IRB_protocol.pdf"
+  "IRB_protocol.aux"
   "IRB_protocol.log"

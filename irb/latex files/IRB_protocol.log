@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.9)  31 JAN 2022 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.9)  31 JAN 2022 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -398,18 +398,18 @@ Package rerunfilecheck Info: File `IRB_protocol.out' has not changed.
 (rerunfilecheck)             Checksum: C1EE5D01234521A6C435632C6B5393C9;935.
  ) 
 Here is how much of TeX's memory you used:
- 11169 strings out of 478579
- 169309 string characters out of 5857458
+ 11170 strings out of 478579
+ 169320 string characters out of 5857458
  490791 words of memory out of 5000000
  28864 multiletter control sequences out of 15000+600000
  429653 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,8n,83p,1586b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IRB_protocol.pdf (6 pages, 262599 bytes).
+Output written on IRB_protocol.pdf (6 pages, 262918 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
