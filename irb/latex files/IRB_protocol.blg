@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: IRB_protocol.aux
 The style file: chicago.bst
 Database file #1: references.bib
-You've used 6 entries,
+You've used 15 entries,
             2861 wiz_defined-function locations,
-            657 strings with 5787 characters,
-and the built_in function-call counts, 4091 in all, are:
-= -- 327
-> -- 312
-< -- 0
-+ -- 94
-- -- 108
-* -- 374
-:= -- 766
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 42
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 106
-empty$ -- 246
-format.name$ -- 124
-if$ -- 744
+            720 strings with 7228 characters,
+and the built_in function-call counts, 9873 in all, are:
+= -- 783
+> -- 737
+< -- 1
++ -- 214
+- -- 248
+* -- 871
+:= -- 1854
+add.period$ -- 47
+call.type$ -- 15
+change.case$ -- 102
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 282
+empty$ -- 613
+format.name$ -- 284
+if$ -- 1818
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 33
-num.names$ -- 60
-pop$ -- 33
+missing$ -- 20
+newline$ -- 78
+num.names$ -- 152
+pop$ -- 92
 preamble$ -- 1
-purify$ -- 80
+purify$ -- 198
 quote$ -- 0
-skip$ -- 115
+skip$ -- 292
 stack$ -- 0
-substring$ -- 209
-swap$ -- 32
-text.length$ -- 0
+substring$ -- 467
+swap$ -- 85
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
+type$ -- 240
 warning$ -- 0
-while$ -- 59
+while$ -- 140
 width$ -- 0
-write$ -- 81
+write$ -- 207

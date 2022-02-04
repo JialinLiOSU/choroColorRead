@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex IRB_protocol"] 1643655102 "IRB_protocol.aux" "IRB_protocol.bbl" "IRB_protocol" 1643856277
+["bibtex IRB_protocol"] 1643949400 "IRB_protocol.aux" "IRB_protocol.bbl" "IRB_protocol" 1643954214
   "/usr/share/texlive/texmf-dist/bibtex/bst/chicago/chicago.bst" 1198629289 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "IRB_protocol.aux" 1643856276 2556 7caaad906d4e85986dd12d0aed72dba0 "pdflatex"
-  "references.bib" 1643856235 6418 d5a32c78482ac0d379eebefdef6ff9f2 ""
+  "IRB_protocol.aux" 1643954214 3484 e44e96692152ec920f3c123a4320c427 "pdflatex"
+  "references.bib" 1643940790 8729 b1ec56cb3e8a4dda427a42b8dcac620c ""
   (generated)
-  "IRB_protocol.blg"
   "IRB_protocol.bbl"
-["pdflatex"] 1643856276 "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.tex" "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.pdf" "IRB_protocol" 1643856277
+  "IRB_protocol.blg"
+["pdflatex"] 1643954213 "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.tex" "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.pdf" "IRB_protocol" 1643954214
   "../figures//us_RdBu_6_pos_large.jpg" 1643856235 202934 2b3cb7d152f1c0d618ee3615cbb80483 ""
   "/etc/texmf/web2c/texmf.cnf" 1638855671 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -117,17 +117,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1638855652 38841 b19964dcaabd9a63508b0e9747f533a1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1643342404 5160710 ecf427ae8fa19139d8691f526e47bb9b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1643342420 2568150 cfef28bf278cebe8f14c1761476e2fa6 ""
-  "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.aux" 1643856276 2556 7caaad906d4e85986dd12d0aed72dba0 ""
-  "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.tex" 1643856275 20399 0969cb79159a7c6951650f7d69027669 ""
-  "IRB_protocol.aux" 1643856276 2556 7caaad906d4e85986dd12d0aed72dba0 "pdflatex"
-  "IRB_protocol.bbl" 1643856235 1593 e3449c6f6a3553e8b3624a9033ab312b "bibtex IRB_protocol"
-  "IRB_protocol.out" 1643856276 390 4afff1da43aae9446c04edc785875b39 "pdflatex"
-  "IRB_protocol.tex" 1643856275 20399 0969cb79159a7c6951650f7d69027669 ""
+  "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.aux" 1643954214 3484 e44e96692152ec920f3c123a4320c427 ""
+  "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.tex" 1643954212 20583 3047d47df3d1a256395820a4a6d260a0 ""
+  "IRB_protocol.aux" 1643954214 3484 e44e96692152ec920f3c123a4320c427 "pdflatex"
+  "IRB_protocol.bbl" 1643949400 3961 39e0098fe711f85f450e30a7d6e0a558 "bibtex IRB_protocol"
+  "IRB_protocol.out" 1643954214 390 4afff1da43aae9446c04edc785875b39 "pdflatex"
+  "IRB_protocol.tex" 1643954212 20583 3047d47df3d1a256395820a4a6d260a0 ""
   "preambles.tex" 1643856235 1277 03b082d359916cdf5c653ade4af4ba58 ""
   (generated)
-  "IRB_protocol.aux"
-  "IRB_protocol.out"
   "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.log"
+  "IRB_protocol.aux"
   "/workspace/writing/all-new-writing/jialin-papers/choroColorRead/irb/latex files/IRB_protocol.pdf"
-  "IRB_protocol.log"
   "IRB_protocol.pdf"
+  "IRB_protocol.log"
+  "IRB_protocol.out"
