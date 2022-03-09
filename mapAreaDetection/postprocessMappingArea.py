@@ -178,29 +178,34 @@ def combineTwoColorList(superPixelValueList, dominantLegendColorList):
 	return colorList
 
 def main():
-	rootPath = r'D:\OneDrive - The Ohio State University\choroMapThemeAnalysis'
-	maskRcnnPath = rootPath + '\\maskRCNNResults'
-	# read detection results from pickle file
-	imagePath = rootPath + '\\dataCollection\originalSizeChoroMaps_standard'
-	detectResultsPath = maskRcnnPath + '\\detectPickleResults'
-	detectResultsDir = os.listdir(detectResultsPath)
-	detectResultsDir.sort()
 
-	priorResultsPath = r'C:\Users\jiali\Desktop\choroMapThemeAnalysis' + '\\' + 'intermediateResults'
-	# read legend post processing results to get colors from legend area
-	with open(priorResultsPath + '\\legendResultsEnlargedStandard_11_11_2021.pickle', 'rb') as f:
-		legendResults = pickle.load(f)
+	# read image data
+	imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\quantiles'
+	testImages = os.listdir(imagePath)
+	savePath = r'C:\Users\jiali\Desktop\choroColorRead\mapAreaDetection'
 
-	unclassifiedImages = ['0095-choropleth.png','06_africa.png','0_lzCKe_IRiQwe1LsT.png']
+    # read detection results from pickle file
+	detectResultsPath = r'D:\OneDrive - The Ohio State University\choroColorRead'
+	detectResultFileName = 'detectResultSpatialPattern.pickle'
+	with open(detectResultsPath + '\\' + detectResultFileName, 'rb') as f:
+		detectResults = pickle.load(f)
 
-	for detectResultFile in detectResultsDir:
-		with open(detectResultsPath + '\\' + detectResultFile, 'rb') as f:
-			detectResult = pickle.load(f)
-
-		imageName = detectResult[0]
-		if imageName in unclassifiedImages:
-			continue
+	# super pixel results
+	superPixelResultsPath = detectResultsPath
+	with open(superPixelResultsPath + '\\' + 'sp_300_spatialPattern_images_quantiles.pickle', 'rb') as f:
+		superPixelResults = pickle.load(f)
+	afterTarget = False
+	for i, imageName in enumerate(testImages):
+		
+		detectResult = detectResults[i]
 		print("imageName: "+imageName)
+
+		if imageName == 'us_Blues_4_nonAuto1.jpg':
+			afterTarget = True
+
+		if afterTarget == False:
+			continue
+
 		image = io.imread(imagePath + '\\' + imageName)
 		if image.shape[2]==4:
 			image = image[:,:,:3]
@@ -250,17 +255,10 @@ def main():
 				maskPolygon = Polygon(vertList)
 				maskPolyList.append(maskPolygon)
 
-		# super pixel results
-		superPixelResultsPath = r'D:\OneDrive - The Ohio State University\choroMapThemeAnalysis\superPixelResults'
-
-		with open(superPixelResultsPath + '\\' + 'superPixelResultsStandard.pickle', 'rb') as f:
-			superPixelResults = pickle.load(f)
-
-		for spr in superPixelResults:
-			if spr[0] == imageName:
-				segments = spr[1]
-				break
-		# segments = superPixelResults[107][1]
+		
+		# super pixels
+		spr = superPixelResults[i]
+		segments = spr[1]
 
 		# get the list of pairs of coords of pixels with a specific superpixel segmentid
 		# index of the list means superpixel segmentid
@@ -355,44 +353,58 @@ def main():
 
 			# need to identify whether new value is close to value in list
 			diffList = [abs(dominantColorGrey - pv)>10 for pv in superPixelGreyValueList]
-			if  all(diffList) and abs(dominantColorGrey - bgColor) > 5:
-				# if bgColorSec != None and abs(dominantColorGrey - bgColorSec) <= 10:
-				#     continue
-				superPixelGreyValueList.append(dominantColorGrey)
-				superPixelValueList.append(dominantColor.tolist())
-			# superPixelValueList.append(dominantColor.tolist())
+			if  abs(dominantColorGrey - bgColor) > 5:
+				if all(diffList):
+					superPixelGreyValueList.append(dominantColorGrey)
+					superPixelValueList.append(dominantColor.tolist())
+				else:
+					# check whether the new RGB balue is different from the exisiting value in the list
+					sameGreyIndex = [i for i, x in enumerate(diffList) if x == False]
+					# compare rgb value with all existing grey values' corresponding rgb value
+					rgbDiff = True
+					for ind in sameGreyIndex:
+						existSuperPixelValue = superPixelValueList[ind]
+						espR, espG, espB = existSuperPixelValue[0],existSuperPixelValue[1],existSuperPixelValue[2]
+						dcR, dcG, dcB = dominantColor[0],dominantColor[1],dominantColor[2]
+						if abs(espR - dcR) <= 15 and abs(espG - dcG) <= 15 and abs(espG - dcG) <= 15:
+							rgbDiff = False
+							break
+					if rgbDiff:
+						superPixelGreyValueList.append(dominantColorGrey)
+						superPixelValueList.append(dominantColor.tolist())
+					
 		
 		# uniqueDominantColors = unique(dominantColorList)
 		print(superPixelValueList)
 		# rect = patches.Rectangle((50, 100), 40, 30, linewidth=1, edgecolor='r', facecolor='none')
 
 		# visualize results
-		for i,color in enumerate(superPixelValueList):#color rgb
-			startPoint = (20 * i, 0)
-			endPoint = (20 * i + 10, 10)
-			cv2.rectangle(imgtemp,startPoint,endPoint,(color[2],color[1],color[0]),5) #  BGR
+		# for i,color in enumerate(superPixelValueList):#color rgb
+		# 	startPoint = (20 * i, 0)
+		# 	endPoint = (20 * i + 10, 10)
+		# 	cv2.rectangle(imgtemp,startPoint,endPoint,(color[2],color[1],color[0]),5) #  BGR
 
-		cv2.imshow('test', imgtemp)
+		# cv2.imshow('test', imgtemp)
 		# get legend bboxes, text bboxes, and rectangles
-		legendShapelyBbox,legendTextShapelyBoxList,legendTextBboxes = getLegendBboxImage(imageName,legendResults)
-		# legendShapelyBbox,legendTextShapelyBoxList,legendTextBboxes = legendResults[1],legendResults[2],legendResults[3]
-		# if legendShapelyBbox == None:
-		# 	print('no legend detected!')
-		# 	continue
+		# legendShapelyBbox,legendTextShapelyBoxList,legendTextBboxes = getLegendBboxImage(imageName,legendResults)
+		# # legendShapelyBbox,legendTextShapelyBoxList,legendTextBboxes = legendResults[1],legendResults[2],legendResults[3]
+		# # if legendShapelyBbox == None:
+		# # 	print('no legend detected!')
+		# # 	continue
 
-		spLegendShapelyBoxList,dominantLegendGreyColorList,dominantLegendColorList, (xMinLeg,yMinLeg) = getSPLegendNonBackground(legendShapelyBbox,image,legendTextShapelyBoxList)
-		spLegendResults = (spLegendShapelyBoxList, dominantLegendGreyColorList,(xMinLeg,yMinLeg))
-		print(dominantLegendColorList)
+		# spLegendShapelyBoxList,dominantLegendGreyColorList,dominantLegendColorList, (xMinLeg,yMinLeg) = getSPLegendNonBackground(legendShapelyBbox,image,legendTextShapelyBoxList)
+		# spLegendResults = (spLegendShapelyBoxList, dominantLegendGreyColorList,(xMinLeg,yMinLeg))
+		# print(dominantLegendColorList)
 
-		colorsMappingArea = combineTwoColorList(superPixelValueList, dominantLegendColorList)
-		print(colorsMappingArea)
+		# colorsMappingArea = combineTwoColorList(superPixelValueList, dominantLegendColorList)
+		# print(colorsMappingArea)
 
-		# visualize results
-		for i,color in enumerate(colorsMappingArea):#color rgb
-			startPoint = (20 * i, 0)
-			endPoint = (20 * i + 10, 10)
-			cv2.rectangle(imgtemp,startPoint,endPoint,(color[2],color[1],color[0]),5) #  BGR
-		cv2.imshow('test', imgtemp)
+		# # visualize results
+		# for i,color in enumerate(colorsMappingArea):#color rgb
+		# 	startPoint = (20 * i, 0)
+		# 	endPoint = (20 * i + 10, 10)
+		# 	cv2.rectangle(imgtemp,startPoint,endPoint,(color[2],color[1],color[0]),5) #  BGR
+		# cv2.imshow('test', imgtemp)
 
 
 		# Create a Rectangle patch

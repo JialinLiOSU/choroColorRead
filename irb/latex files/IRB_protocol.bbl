@@ -1,34 +1,11 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{Crampton}{Crampton}{2001}]{crampton2001maps}
-Crampton, J.~W. (2001).
-\newblock Maps as social constructions: power, communication and visualization.
-\newblock {\em Progress in human Geography\/}~{\em 25\/}(2), 235--252.
-
-\bibitem[\protect\citeauthoryear{Dent}{Dent}{1996}]{Den96}
-Dent, B.~D. (1996).
-\newblock {\em Cartography: {T}hematic {M}ap {D}esign\/} (5th ed.).
-\newblock Boston, MA: WCB/McGraw-Hill.
-
 \bibitem[\protect\citeauthoryear{Gilhooly, Wood, Kinnear, and Green}{Gilhooly
   et~al.}{1988}]{gilhooly1988skill}
 Gilhooly, K.~J., M.~Wood, P.~R. Kinnear, and C.~Green (1988).
 \newblock Skill in map reading and memory for maps.
 \newblock {\em The Quarterly Journal of Experimental Psychology Section
   A\/}~{\em 40\/}(1), 87--107.
-
-\bibitem[\protect\citeauthoryear{Goodfellow, Bengio, and Courville}{Goodfellow
-  et~al.}{2016}]{goodfellow2016deep}
-Goodfellow, I., Y.~Bengio, and A.~Courville (2016).
-\newblock {\em Deep learning}.
-\newblock MIT press.
-
-\bibitem[\protect\citeauthoryear{Han, Kamber, and Tung}{Han
-  et~al.}{2001}]{HKT01}
-Han, J., M.~Kamber, and A.~K.~H. Tung (2001).
-\newblock Spatial clustering methods in data mining: a survey.
-\newblock In H.~Miller and J.~Han (Eds.), {\em Geographic {D}ata {M}ining and
-  {K}nowledge {D}iscovery}, pp.\  188--217. London: Taylor and Francis.
 
 \bibitem[\protect\citeauthoryear{Harrower and Brewer}{Harrower and
   Brewer}{2003}]{harrower2003colorbrewer}
@@ -43,38 +20,10 @@ Kimerling, A.~J., P.~C. Muehrcke, J.~O. Muehrcke, and P.~Muehrcke (2016).
 \newblock {\em Map use: reading, analysis, interpretation}.
 \newblock ESRI Press Academic.
 
-\bibitem[\protect\citeauthoryear{LeCun, Bengio, and Hinton}{LeCun
-  et~al.}{2015}]{LeCun2015}
-LeCun, Y., Y.~Bengio, and G.~Hinton (2015).
-\newblock {Deep learning}.
-\newblock {\em Nature\/}~{\em 521\/}(7553), 436--444.
-
-\bibitem[\protect\citeauthoryear{Li}{Li}{2021}]{Li2021}
-Li, J. (2021).
-\newblock {C}artographic {R}ecognition to {U}nderstand {C}horopleth {M}aps
-  {S}emantically: a {C}ase {S}tudy for {S}tate-level {C}horopleth {M}aps of the
-  {U}nited {S}tates.
-\newblock Master's thesis, Department of {C}omputer {S}cience and
-  {E}ngineering, Ohio State University, Columbus, OH.
-
-\bibitem[\protect\citeauthoryear{Li and Xiao}{Li and
-  Xiao}{2019}]{li2019geocomp}
-Li, J. and N.~Xiao (2019).
-\newblock Using machine learning methods to identify and classify the regions
-  and projections of online maps.
-\newblock In {\em Proceedings of GeoComputation 2019}. The University of
-  Auckland.
-
 \bibitem[\protect\citeauthoryear{Presson}{Presson}{1982}]{presson1982development}
 Presson, C.~C. (1982).
 \newblock The development of map-reading skills.
 \newblock {\em Child Development\/}~{\em 53\/}(1), 196--199.
-
-\bibitem[\protect\citeauthoryear{Slocum, McMaster, Kessler, and Howard}{Slocum
-  et~al.}{2009}]{slocum2009thematic}
-Slocum, T.~A., R.~B. McMaster, F.~C. Kessler, and H.~H. Howard (2009).
-\newblock {\em Thematic cartography and geovisualization\/} (3rd ed.).
-\newblock Upper Saddle River, NJ: Prentice-Hall.
 
 \bibitem[\protect\citeauthoryear{Szeliski}{Szeliski}{2022}]{Szeliski2021}
 Szeliski, R. (2022).
@@ -85,10 +34,5 @@ Szeliski, R. (2022).
 Wang, M. and W.~Deng (2021).
 \newblock {Deep Face Recognition: A Survey}.
 \newblock {\em Neurocomputing\/}~{\em 429}, 215--244.
-
-\bibitem[\protect\citeauthoryear{Xiao}{Xiao}{2016}]{xiao2016gisalgs}
-Xiao, N. (2016).
-\newblock {\em {GIS} Algorithms}.
-\newblock London: SAGE Publications.
 
 \end{thebibliography}

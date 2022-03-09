@@ -2,6 +2,7 @@ import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt  
+
 import pandas as pd
 import seaborn as sns
 import pickle
@@ -12,8 +13,6 @@ import shapely.geometry
 
 import numpy as np
 from scipy.signal import argrelextrema
-
-
 
 def rgb2Grey(dominantColor):
     rgb_weights = [0.2989, 0.5870, 0.1140]
@@ -33,33 +32,17 @@ def unique_count_app(a):
 
 def main():
 	# read image data
-    imagePath = r'D:\OneDrive - The Ohio State University\choroMapThemeAnalysis' + '\\dataCollection'
-    testImagePath = imagePath + '\\originalSizeChoroMaps_standard'
-    testImages = os.listdir(testImagePath)
+    imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\quantiles'
+    testImages = os.listdir(imagePath)
 
-    rootPath = r'D:\OneDrive - The Ohio State University\choroMapThemeAnalysis'
-    maskRcnnPath = rootPath + '\\maskRCNNResults'
     # read detection results from pickle file
-    detectResultsPath = maskRcnnPath + '\\detectPickleResults'
-    detectResultsDir = os.listdir(detectResultsPath)
-    detectResultsDir.sort()
+    detectResultsPath = r'D:\OneDrive - The Ohio State University\choroColorRead'
+    detectResultFileName = 'detectResultSpatialPattern.pickle'
+    with open(detectResultsPath + '\\' + detectResultFileName, 'rb') as f:
+        detectResults = pickle.load(f)
 
     testImage = testImages[0]
-    unclassifiedImages = ['05_choropleth_65_0.png','0095-choropleth.png','06_africa.png','0_lzCKe_IRiQwe1LsT.png']
-    targetImage = '119.Choropleth+Map.jpg'
-    afterTarget = False
     for i,testImage in enumerate(testImages): # 3,8,22,214
-        # testImage = testImages[3]
-        # if i not in [3,8,22,214]:
-        #     continue
-        if testImage == targetImage:
-            afterTarget = True
-            continue
-        if afterTarget == False:
-            continue
-
-        if testImage in unclassifiedImages:
-            continue
 
         if testImage[-4:] == 'json':
             continue
@@ -69,14 +52,12 @@ def main():
             detectResultFile = testImage[:-3]
         
         print('testImage: ' + testImage)
-        img = cv2.imread(testImagePath + '\\'+testImage)
+        img = cv2.imread(imagePath + '\\'+testImage)
         cv2.imshow('test', img)
 
         imgGrey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-        detectResultFile = detectResultFile + 'pickle'
-        with open(detectResultsPath + '\\' + detectResultFile, 'rb') as f:
-            detectResult = pickle.load(f)
+        detectResult = detectResults[i]
         property = detectResult[1]
         boxes = property['rois']
         masks = property['masks']

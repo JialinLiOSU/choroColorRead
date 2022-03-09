@@ -27,41 +27,24 @@ def rgb2Grey(dominantColor):
 
 def main():
 	# read image data
-    imagePath = r'D:\OneDrive - The Ohio State University\choroMapThemeAnalysis' + '\\dataCollection'
-    testImagePath = imagePath + '\\originalSizeChoroMaps_standard_classified'
-    testImages = os.listdir(testImagePath)
+    imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\quantiles'
+    testImages = os.listdir(imagePath)
+    savePath = r'C:\Users\jiali\Desktop\choroColorRead\mapAreaDetection'
 
-    rootPath = r'D:\OneDrive - The Ohio State University\choroMapThemeAnalysis'
-    maskRcnnPath = rootPath + '\\maskRCNNResults'
     # read detection results from pickle file
-    detectResultsPath = maskRcnnPath + '\\detectPickleResults'
-    # detectResultsDir = os.listdir(detectResultsPath)
-    # detectResultsDir.sort()
+    detectResultsPath = r'D:\OneDrive - The Ohio State University\choroColorRead'
+    detectResultFileName = 'detectResultSpatialPattern.pickle'
+    with open(detectResultsPath + '\\' + detectResultFileName, 'rb') as f:
+        detectResults = pickle.load(f)
 
-    afterTarget = False
     for i,testImage in enumerate(testImages): # 3,8,22,214
-        if testImage == '1639px-India_population_density_map_en.svg.png':
-            afterTarget = True
-        
-        if afterTarget == False:
-            continue
-
-        if testImage[-4:] == 'json':
-            continue
-        elif testImage[-4:] == 'jpeg':
-            detectResultFile = testImage[:-4]
-        else:
-            detectResultFile = testImage[:-3]
         
         print('testImage: ' + testImage)
-        img = cv2.imread(testImagePath + '\\'+testImage)
+        img = cv2.imread(imagePath + '\\'+testImage)
         cv2.imshow('test', img)
 
         # imgGrey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-        detectResultFile = detectResultFile + 'pickle'
-        with open(detectResultsPath + '\\' + detectResultFile, 'rb') as f:
-            detectResult = pickle.load(f)
+        detectResult = detectResults[i]
         property = detectResult[1]
         boxes = property['rois']
         masks = property['masks']
@@ -86,6 +69,7 @@ def main():
             mapBoxList.append(bboxMap)
             # Mask
             mask = masks[:, :, i]
+            itemindex = np.where(mask==True)
             mapMaskList.append(mask)
 
         imgListList = (img).tolist()
@@ -227,6 +211,12 @@ def main():
 
             xList.append(i+1)
             yList.append(1)
+        
+        # # visualize results
+        # for i,color in enumerate(colorList):#color rgb
+        #     startPoint = (20 * i, 0)
+        #     endPoint = (20 * i + 10, 10)
+        #     cv2.rectangle(img,startPoint,endPoint,(color[2],color[1],color[0]),5) #  BGR
             
         colorList.sort(key=lambda x: rgb2Grey((x[0],x[1],x[2])))
         ax.scatter(xList, yList, s = 20,c = colorList)
@@ -235,9 +225,9 @@ def main():
         # ax.set_ylabel('g')
         # ax.set_zlabel('r')
 
-        # plt.show()
-        plt.savefig('colors_'+testImage)
+        plt.show()
+        # plt.savefig(savePath + '\\' + 'colors_'+testImage)
 
-        print('test')
+        # print('test')
 
 if __name__ == "__main__":    main()

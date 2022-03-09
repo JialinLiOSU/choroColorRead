@@ -1,0 +1,242 @@
+ohio_Blues_4_neg.jpg
+aveMedianDistanceCenters:  321.1181418223803
+aveMedDistPercentage25:  261.3145529217682
+not concentrated...
+ohio_Blues_4_neg1.jpg
+aveMedianDistanceCenters:  331.9322635112425
+aveMedDistPercentage25:  277.36569673958587
+not concentrated...
+ohio_Blues_6_neg.jpg
+aveMedianDistanceCenters:  304.52047852924846
+aveMedDistPercentage25:  247.45674813807747
+not concentrated...
+ohio_Blues_6_neg1.jpg
+aveMedianDistanceCenters:  317.05995372542685
+aveMedDistPercentage25:  255.69342664230493
+not concentrated...
+ohio_Blues_8_neg.jpg
+aveMedianDistanceCenters:  316.02964675641095
+aveMedDistPercentage25:  224.29066056144126
+not concentrated...
+ohio_Blues_8_neg1.jpg
+aveMedianDistanceCenters:  348.8741259288071
+aveMedDistPercentage25:  223.21653427194758
+not concentrated...
+ohio_RdBu_4_neg.jpg
+aveMedianDistanceCenters:  350.1803857851278
+aveMedDistPercentage25:  265.7726493349241
+not concentrated...
+ohio_RdBu_4_neg1.jpg
+aveMedianDistanceCenters:  365.0798616096109
+aveMedDistPercentage25:  269.52084151969916
+not concentrated...
+ohio_RdBu_6_neg.jpg
+aveMedianDistanceCenters:  376.7979320658267
+aveMedDistPercentage25:  247.84058867138
+not concentrated...
+ohio_RdBu_6_neg1.jpg
+aveMedianDistanceCenters:  328.1488857309019
+aveMedDistPercentage25:  255.25896256354557
+not concentrated...
+ohio_RdBu_8_neg.jpg
+aveMedianDistanceCenters:  399.00824221902474
+aveMedDistPercentage25:  239.47892693867215
+not concentrated...
+ohio_RdBu_8_neg1.jpg
+aveMedianDistanceCenters:  333.44192394206476
+aveMedDistPercentage25:  239.31389996803975
+not concentrated...
+us_Blues_4_neg.jpg
+aveMedianDistanceCenters:  390.1565969923975
+aveMedDistPercentage25:  336.7084324049758
+not concentrated...
+us_Blues_4_neg1.jpg
+aveMedianDistanceCenters:  388.81533475256265
+aveMedDistPercentage25:  359.0794210301826
+not concentrated...
+us_Blues_6_neg.jpg
+aveMedianDistanceCenters:  387.42844791939166
+aveMedDistPercentage25:  344.959234562669
+not concentrated...
+us_Blues_6_neg1.jpg
+aveMedianDistanceCenters:  384.19581064061794
+aveMedDistPercentage25:  361.9147598048278
+not concentrated...
+us_Blues_8_neg.jpg
+aveMedianDistanceCenters:  383.24430769501276
+aveMedDistPercentage25:  359.6482429043336
+not concentrated...
+us_Blues_8_neg1.jpg
+aveMedianDistanceCenters:  398.63788268008864
+aveMedDistPercentage25:  360.6061581518725
+not concentrated...
+us_RdBu_4_neg.jpg
+aveMedianDistanceCenters:  384.9303720145703
+aveMedDistPercentage25:  354.6418326488224
+not concentrated...
+us_RdBu_4_neg1.jpg
+aveMedianDistanceCenters:  385.95163478541014
+aveMedDistPercentage25:  357.3475893098927
+not concentrated...
+us_RdBu_6_neg.jpg
+aveMedianDistanceCenters:  385.1673352173486
+aveMedDistPercentage25:  359.42843069108727
+not concentrated...
+us_RdBu_6_neg1.jpg
+aveMedianDistanceCenters:  388.7841195832465
+aveMedDistPercentage25:  360.89372543068794
+not concentrated...
+us_RdBu_8_neg.jpg
+aveMedianDistanceCenters:  388.28312298016215
+aveMedDistPercentage25:  358.87968480987485
+not concentrated...
+us_RdBu_8_neg1.jpg
+aveMedianDistanceCenters:  380.0158238199463
+aveMedDistPercentage25:  358.8860875639115
+not concentrated...
+
+imageName: ohio_Blues_4_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+Backend QtAgg is interactive backend. Turning interactive mode on.
+aveMedianDistanceCenters:  361.8118132153327
+aveMedDistPercentage25:  249.7317552902957
+not concentrated...
+imageName: ohio_Blues_4_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  328.90380755186106
+aveMedDistPercentage25:  237.01766330773359
+not concentrated...
+imageName: ohio_Blues_6_nonAuto.jpg        
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  343.75490137295066
+aveMedDistPercentage25:  97.86002386764014
+not concentrated...
+imageName: ohio_Blues_6_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  347.36976986519267
+aveMedDistPercentage25:  227.53102812030815
+not concentrated...
+imageName: ohio_Blues_8_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  291.46772542672846
+aveMedDistPercentage25:  210.37661831993395
+not concentrated...
+imageName: ohio_Blues_8_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  347.2519051666018
+aveMedDistPercentage25:  206.70725854972966
+not concentrated...
+imageName: ohio_RdBu_4_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  342.4275437948534
+aveMedDistPercentage25:  263.5207269903813
+not concentrated...
+imageName: ohio_RdBu_4_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  232.1028199321321
+aveMedDistPercentage25:  82.50713147488774
+not concentrated...
+imageName: ohio_RdBu_6_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  416.40075187284714
+aveMedDistPercentage25:  206.8548610919901
+not concentrated...
+imageName: ohio_RdBu_6_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  345.42898792056025
+aveMedDistPercentage25:  218.48825154126015
+not concentrated...
+imageName: ohio_RdBu_8_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  287.6072645826777
+aveMedDistPercentage25:  169.7192653111906
+not concentrated...
+imageName: ohio_RdBu_8_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  295.6973236742012
+aveMedDistPercentage25:  206.99863824095112
+not concentrated...
+imageName: us_Blues_4_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  397.6652992881507
+aveMedDistPercentage25:  358.3807425732452
+not concentrated...
+imageName: us_Blues_4_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  407.7562770324626
+aveMedDistPercentage25:  362.55762199801535
+not concentrated...
+imageName: us_Blues_6_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  386.6646648372718
+aveMedDistPercentage25:  359.1555109209846
+not concentrated...
+imageName: us_Blues_6_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  395.3973145225299
+aveMedDistPercentage25:  363.275860930514
+not concentrated...
+imageName: us_Blues_8_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  381.6160702625102
+aveMedDistPercentage25:  360.63809356527213
+not concentrated...
+imageName: us_Blues_8_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  395.37514746971937
+aveMedDistPercentage25:  361.19680534374714
+not concentrated...
+imageName: us_RdBu_4_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  386.33303902312514
+aveMedDistPercentage25:  354.14751617755115
+not concentrated...
+imageName: us_RdBu_4_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  378.1615754255448
+aveMedDistPercentage25:  360.5117561211451
+not concentrated...
+imageName: us_RdBu_6_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  381.8325940695828
+aveMedDistPercentage25:  348.8671088572917
+not concentrated...
+imageName: us_RdBu_6_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  400.0934217721348
+aveMedDistPercentage25:  361.58464780715724
+not concentrated...
+imageName: us_RdBu_8_nonAuto.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  390.1691192128575
+aveMedDistPercentage25:  355.80780959952716
+not concentrated...
+imageName: us_RdBu_8_nonAuto1.jpg
+c:\Users\jiali\Desktop\choroColorRead\concentrationAnalysisNegAll.py:255: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+aveMedianDistanceCenters:  406.502731459591
+aveMedDistPercentage25:  358.75514104542935
+not concentrated...
