@@ -52,7 +52,7 @@ def silKmeans(kmax, x):
     sil = []
     difSilList = []
     # dissimilarity would not be defined for a single cluster, thus, minimum number of clusters should be 2
-    for k in range(3, kmax+1):
+    for k in range(3, kmax):
     #     print('K: '+str(k))
         kmeans = KMeans(n_clusters = k,random_state=0).fit(x)
         labels = kmeans.labels_
@@ -235,17 +235,24 @@ def calculateKNeighWeight(i, coordList, k = 6):
 
 def main():
     # read detection results from pickle file
-    detectResultsPath = r'D:\OneDrive - The Ohio State University\choroColorRead'
+    detectResultsPath = r'C:\Users\li.7957\OneDrive - The Ohio State University\choroColorRead'
     detectResultFileName = 'detectResultSpatialPattern.pickle'
     with open(detectResultsPath + '\\' + detectResultFileName, 'rb') as f:
         detectResults = pickle.load(f)
 
-    imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\classifiedQuantiles\neg'
+    imagePath = r'C:\Users\li.7957\Desktop\choroColorRead\generatedMaps\classifiedQuantiles\neg'
     # imageName = 'ohio_Blues_4_neg1.jpg'
     testImages = os.listdir(imagePath)
+    afterTarget = False
     for imageName in testImages:
         print('imageName: ' + imageName)
         detectResult = findDetectResult(detectResults, imageName)
+
+        if imageName == 'ohio_RdBu_6_neg.jpg':
+            afterTarget = True
+        if afterTarget == False:
+            continue
+
         property = detectResult[1]
         boxes = property['rois']
         masks = property['masks']
@@ -342,7 +349,7 @@ def main():
         coordCentersList = []
         coordCentersAll = []
         for i,silKmeansResult in enumerate(silKmeansResultList):
-            print('debug')
+            # print('debug')
             zCentersTemp = [colorSumRGBList[i] for j in range(silKmeansResult.cluster_centers_.shape[0])]
             zCentersList.append(zCentersTemp)
             zCentersAll += zCentersTemp
@@ -362,7 +369,7 @@ def main():
         ### calculate theoretical expected value and variance of Moran's I
         # expected value
         N = numCenters
-        print(N)
+        # print(N)
         expI = -(1/(N - 1))
         print('expI: ' + str(expI))
 

@@ -1,0 +1,164 @@
+imageName: ohio_Blues_4_neg.jpg
+moranIClusterCenters:-0.31300772164383445
+expI: -0.01694915254237288
+thresholdLower: -0.17828613644079624
+thresholdUpper: 0.14438783135605046
+Negative spatial autocorrelation
+imageName: ohio_Blues_4_neg1.jpg
+moranIClusterCenters:-0.20293748426473227
+expI: -0.01639344262295082
+thresholdLower: -0.17410018836277327
+thresholdUpper: 0.14131330311687165
+Negative spatial autocorrelation
+imageName: ohio_Blues_6_neg.jpg
+moranIClusterCenters:-0.3122725892339219
+expI: -0.015625
+thresholdLower: -0.17265493762780462
+thresholdUpper: 0.14140493762780462
+Negative spatial autocorrelation
+imageName: ohio_Blues_6_neg1.jpg
+moranIClusterCenters:-0.2105226727281038
+expI: -0.01694915254237288
+thresholdLower: -0.17753014865310113
+thresholdUpper: 0.14363184356835534
+Negative spatial autocorrelation
+imageName: ohio_Blues_8_neg.jpg
+moranIClusterCenters:-0.17059460764721598
+expI: -0.011904761904761904
+thresholdLower: -0.14886719348132837
+thresholdUpper: 0.1250576696718046
+Negative spatial autocorrelation
+imageName: ohio_Blues_8_neg1.jpg
+moranIClusterCenters:-0.11404449676128534
+expI: -0.009615384615384616
+thresholdLower: -0.13329442447309642
+thresholdUpper: 0.1140636552423272
+No clear spatial autocorrelation
+imageName: ohio_RdBu_4_neg.jpg
+moranIClusterCenters:-0.25130025138481366
+expI: -0.017241379310344827
+thresholdLower: -0.1763835391780126
+thresholdUpper: 0.14190078055732294
+Negative spatial autocorrelation   
+imageName: ohio_RdBu_4_neg1.jpg
+moranIClusterCenters:-0.23181507825945227
+expI: -0.017857142857142856
+thresholdLower: -0.18140053803324924
+thresholdUpper: 0.14568625231896354
+imageName: ohio_RdBu_6_neg.jpg
+moranIClusterCenters:-0.12409510683409085
+expI: -0.014705882352941176
+thresholdLower: -0.1687203736332371
+thresholdUpper: 0.13930860892735475
+No clear spatial autocorrelation
+imageName: ohio_RdBu_6_neg1.jpg
+moranIClusterCenters:-0.059555993839918386
+expI: -0.01282051282051282
+thresholdLower: -0.1595888826472134
+thresholdUpper: 0.13394785700618775
+No clear spatial autocorrelation
+imageName: ohio_RdBu_8_neg.jpg
+moranIClusterCenters:-0.09299186649671724
+expI: -0.013333333333333334
+thresholdLower: -0.15651512816577837
+thresholdUpper: 0.1298484614991117
+No clear spatial autocorrelation
+imageName: ohio_RdBu_8_neg1.jpg
+moranIClusterCenters:-0.05542850976978398
+expI: -0.014492753623188406
+thresholdLower: -0.17049913755393273
+thresholdUpper: 0.1415136303075559
+No clear spatial autocorrelation
+imageName: us_Blues_4_neg.jpg
+moranIClusterCenters:-0.23690554443298456
+expI: -0.002617801047120419
+thresholdLower: -0.07252093456062868
+thresholdUpper: 0.06728533246638783
+Negative spatial autocorrelation
+imageName: us_Blues_4_neg1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.27261577333231934
+expI: -0.002631578947368421
+thresholdLower: -0.07442653950950198
+thresholdUpper: 0.06916338161476515
+Negative spatial autocorrelation
+imageName: us_Blues_6_neg.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.1996692135880851
+expI: -0.002004008016032064
+thresholdLower: -0.06235311466651592
+thresholdUpper: 0.05834509863445179
+Negative spatial autocorrelation
+imageName: us_Blues_6_neg1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.13966477548556558
+expI: -0.0017667844522968198
+thresholdLower: -0.05984292547307721
+thresholdUpper: 0.05630935656848357
+Negative spatial autocorrelation
+imageName: us_Blues_8_neg.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.11941050241883258
+expI: -0.0013850415512465374
+thresholdLower: -0.05248979739283409
+thresholdUpper: 0.04971971429034101
+Negative spatial autocorrelation
+imageName: us_Blues_8_neg1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.15101343907495784
+expI: -0.0015128593040847202
+thresholdLower: -0.05409870280836564
+thresholdUpper: 0.051072984200196195
+Negative spatial autocorrelation
+imageName: us_RdBu_4_neg.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.181306233218909
+expI: -0.003048780487804878
+thresholdLower: -0.07860107844123623
+thresholdUpper: 0.07250351746562647
+Negative spatial autocorrelation
+imageName: us_RdBu_4_neg1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.1913115128856236
+expI: -0.0027548209366391185
+thresholdLower: -0.07538184451872668
+thresholdUpper: 0.06987220264544844
+Negative spatial autocorrelation
+imageName: us_RdBu_6_neg.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.10641736723967143
+expI: -0.0020242914979757085
+thresholdLower: -0.0647209708014035
+thresholdUpper: 0.06067238780545208
+Negative spatial autocorrelation
+imageName: us_RdBu_6_neg1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.13446847331149606
+expI: -0.0018050541516245488
+thresholdLower: -0.06154512011853973
+thresholdUpper: 0.057935011815290635
+Negative spatial autocorrelation
+imageName: us_RdBu_8_neg.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+moranIClusterCenters:-0.08189228316783805
+expI: -0.0020833333333333333
+thresholdLower: -0.06441754405912269
+thresholdUpper: 0.06025087739245601
+Negative spatial autocorrelation
+imageName: us_RdBu_8_neg1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+moranIClusterCenters:-0.09858013622451645
+expI: -0.0018796992481203006
+thresholdLower: -0.062101239394925345
+thresholdUpper: 0.058341840898684744
+Negative spatial autocorrelation
