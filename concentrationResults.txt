@@ -433,3 +433,195 @@ aveMedianDistanceCenters:  341.8574173719476
 aveMedDistPercentage25:  351.4466458588755
 aveMedDistPercentage5:  357.0529435532242
 concentrated!
+imageName: ohio_Blues_4_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:16
+aveMedianDistanceCenters:  218.3939122806974
+aveMedDistPercentage25:  266.4605217523822
+aveMedDistPercentage5:  277.3254214269401 
+concentrated!
+imageName: ohio_Blues_4_pos_large1.jpg    
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:16
+aveMedianDistanceCenters:  241.65534584976007
+aveMedDistPercentage25:  266.84906138417733
+aveMedDistPercentage5:  278.32500777394404
+concentrated!
+imageName: ohio_Blues_6_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:21
+aveMedianDistanceCenters:  176.03186617063434
+aveMedDistPercentage25:  280.2374726808309
+aveMedDistPercentage5:  291.17512254679696
+concentrated!
+imageName: ohio_Blues_6_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:14
+aveMedianDistanceCenters:  232.23597258554793
+aveMedDistPercentage25:  257.84199159524644
+aveMedDistPercentage5:  270.3026009350202
+concentrated!
+imageName: ohio_Blues_8_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:16
+aveMedianDistanceCenters:  157.54779944494845
+aveMedDistPercentage25:  258.068936272556
+aveMedDistPercentage5:  270.12026618477273
+concentrated!
+imageName: ohio_Blues_8_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:18
+aveMedianDistanceCenters:  205.14905234725245
+aveMedDistPercentage25:  275.33663158177035
+aveMedDistPercentage5:  286.0144108878797
+concentrated!
+imageName: ohio_RdBu_4_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:13
+aveMedianDistanceCenters:  212.74422184947514
+aveMedDistPercentage25:  253.50431436787176
+aveMedDistPercentage5:  267.4850257773945
+concentrated!
+imageName: ohio_RdBu_4_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:9
+aveMedianDistanceCenters:  211.99484229606642
+aveMedDistPercentage25:  223.5289138109195
+aveMedDistPercentage5:  239.1731500811868
+concentrated!
+imageName: ohio_RdBu_6_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:14
+aveMedianDistanceCenters:  322.4133172642679
+aveMedDistPercentage25:  260.02036353639886
+aveMedDistPercentage5:  272.7978868883454
+not concentrated...
+imageName: ohio_RdBu_6_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:14
+aveMedianDistanceCenters:  194.60153887434737
+aveMedDistPercentage25:  258.8011469772016
+aveMedDistPercentage5:  271.3612971086584
+concentrated!
+imageName: ohio_RdBu_8_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:16
+aveMedianDistanceCenters:  206.24934189061207
+aveMedDistPercentage25:  270.20337245489327
+aveMedDistPercentage5:  282.3231840681399
+concentrated!
+imageName: ohio_RdBu_8_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:13
+aveMedianDistanceCenters:  228.19481172859315
+aveMedDistPercentage25:  254.85410786997053
+aveMedDistPercentage5:  268.5518968127352
+concentrated!
+imageName: us_Blues_4_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:73
+aveMedianDistanceCenters:  335.84620868759254
+aveMedDistPercentage25:  353.80540296281737
+aveMedDistPercentage5:  359.00536067120674
+concentrated!
+imageName: us_Blues_4_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:91
+aveMedianDistanceCenters:  376.82918836167323
+aveMedDistPercentage25:  357.2603875316379
+aveMedDistPercentage5:  362.05711951190455
+not concentrated...
+imageName: us_Blues_6_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:90
+aveMedianDistanceCenters:  334.7445833730777
+aveMedDistPercentage25:  359.28217388244155
+aveMedDistPercentage5:  364.6339368917317
+concentrated!
+imageName: us_Blues_6_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:49
+aveMedianDistanceCenters:  242.4109602643468
+aveMedDistPercentage25:  344.22270962535464
+aveMedDistPercentage5:  350.42007710998945
+concentrated!
+imageName: us_Blues_8_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:98
+aveMedianDistanceCenters:  260.35027765933495
+aveMedDistPercentage25:  361.1848121997339
+aveMedDistPercentage5:  365.93596843091063
+concentrated!
+imageName: us_Blues_8_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:37
+aveMedianDistanceCenters:  330.9623707935625
+aveMedDistPercentage25:  335.19999324580886
+aveMedDistPercentage5:  343.68515287917927
+concentrated!
+imageName: us_RdBu_4_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:45
+aveMedianDistanceCenters:  373.66060765399476
+aveMedDistPercentage25:  343.1856624841857
+aveMedDistPercentage5:  350.46943901069545
+not concentrated...
+imageName: us_RdBu_4_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:64
+aveMedianDistanceCenters:  314.84587568373814
+aveMedDistPercentage25:  347.99683691965146
+aveMedDistPercentage5:  353.86551757474984
+concentrated!
+imageName: us_RdBu_6_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:81
+aveMedianDistanceCenters:  382.6671684383724
+aveMedDistPercentage25:  358.607808688583
+aveMedDistPercentage5:  364.3540071245761
+not concentrated...
+imageName: us_RdBu_6_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:52
+aveMedianDistanceCenters:  329.77911282530323
+aveMedDistPercentage25:  349.5482022373763
+aveMedDistPercentage5:  356.35715662752176
+concentrated!
+imageName: us_RdBu_8_pos_large.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:64
+aveMedianDistanceCenters:  354.5532238659777
+aveMedDistPercentage25:  351.97961611705597
+aveMedDistPercentage5:  358.1122796507094
+not concentrated...
+imageName: us_RdBu_8_pos_large1.jpg
+c:\Users\li.7957\Desktop\choroColorRead\concentrationAnalysisPosLarge.py:316: RuntimeWarning: overflow encountered in ubyte_scalars
+  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
+number of coordCentersHighestClass:49
+aveMedianDistanceCenters:  318.4998005083095
+aveMedDistPercentage25:  344.0871685104222
+aveMedDistPercentage5:  351.56716392629005
+concentrated!
