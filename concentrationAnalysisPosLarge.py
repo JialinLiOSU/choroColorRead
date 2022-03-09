@@ -238,12 +238,12 @@ def countSegmentationFun(mostCommonList):
 
 def main():
     # read detection results from pickle file
-    detectResultsPath = r'D:\OneDrive - The Ohio State University\choroColorRead'
+    detectResultsPath = r'C:\Users\li.7957\OneDrive - The Ohio State University\choroColorRead'
     detectResultFileName = 'detectResultSpatialPattern.pickle'
     with open(detectResultsPath + '\\' + detectResultFileName, 'rb') as f:
         detectResults = pickle.load(f)
 
-    imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\classifiedQuantiles\pos_large'
+    imagePath = r'C:\Users\li.7957\Desktop\choroColorRead\generatedMaps\classifiedQuantiles\pos_large'
     # imageName = 'ohio_Blues_4_neg1.jpg'
     testImages = os.listdir(imagePath)
     afterTarget = False
@@ -408,6 +408,7 @@ def main():
         # coordCenters0 = kmeans0.cluster_centers_.tolist()
         # coordCenters1 = kmeans1.cluster_centers_.tolist()
         coordCentersHighestClass = kmeansHighestClass.cluster_centers_.tolist()
+        print('number of coordCentersHighestClass:' + str(len(coordCentersHighestClass)))
         # coordCenters3 = kmeans3.cluster_centers_.tolist()
 
         # kdt pair-wise distance calculation for the cluster centers
