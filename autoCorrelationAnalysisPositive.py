@@ -438,7 +438,11 @@ def main():
             kmeansResultList = []
             coordCentersList = []
             for i, pixelCoordsSample in enumerate(pixelCoordListSampleList):
-                kmeansResult = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[i])
+
+                if len(pixelCoordListSampleList[i]) < numClusterEach:
+                    continue
+                else:
+                    kmeansResult = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[i])
                 kmeansResultList.append(kmeansResult)
                 zList = [colorSumRGBList[i] for j in range(len(pixelCoordListSampleList[i]))]
                 zListList.append(zList)

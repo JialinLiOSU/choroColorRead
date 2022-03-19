@@ -76,89 +76,542 @@ thresholdLower: -0.07252093456062868
 thresholdUpper: 0.06728533246638783
 Negative spatial autocorrelation
 imageName: us_Blues_4_neg1.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.27261577333231934
 expI: -0.002631578947368421
 thresholdLower: -0.07442653950950198
 thresholdUpper: 0.06916338161476515
 Negative spatial autocorrelation
 imageName: us_Blues_6_neg.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.1996692135880851
 expI: -0.002004008016032064
 thresholdLower: -0.06235311466651592
 thresholdUpper: 0.05834509863445179
 Negative spatial autocorrelation
 imageName: us_Blues_6_neg1.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.13966477548556558
 expI: -0.0017667844522968198
 thresholdLower: -0.05984292547307721
 thresholdUpper: 0.05630935656848357
 Negative spatial autocorrelation
 imageName: us_Blues_8_neg.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.11941050241883258
 expI: -0.0013850415512465374
 thresholdLower: -0.05248979739283409
 thresholdUpper: 0.04971971429034101
 Negative spatial autocorrelation
 imageName: us_Blues_8_neg1.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.15101343907495784
 expI: -0.0015128593040847202
 thresholdLower: -0.05409870280836564
 thresholdUpper: 0.051072984200196195
 Negative spatial autocorrelation
 imageName: us_RdBu_4_neg.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.181306233218909
 expI: -0.003048780487804878
 thresholdLower: -0.07860107844123623
 thresholdUpper: 0.07250351746562647
 Negative spatial autocorrelation
 imageName: us_RdBu_4_neg1.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.1913115128856236
 expI: -0.0027548209366391185
 thresholdLower: -0.07538184451872668
 thresholdUpper: 0.06987220264544844
 Negative spatial autocorrelation
 imageName: us_RdBu_6_neg.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.10641736723967143
 expI: -0.0020242914979757085
 thresholdLower: -0.0647209708014035
 thresholdUpper: 0.06067238780545208
 Negative spatial autocorrelation
 imageName: us_RdBu_6_neg1.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.13446847331149606
 expI: -0.0018050541516245488
 thresholdLower: -0.06154512011853973
 thresholdUpper: 0.057935011815290635
 Negative spatial autocorrelation
 imageName: us_RdBu_8_neg.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
 moranIClusterCenters:-0.08189228316783805
 expI: -0.0020833333333333333
 thresholdLower: -0.06441754405912269
 thresholdUpper: 0.06025087739245601
 Negative spatial autocorrelation
 imageName: us_RdBu_8_neg1.jpg
-c:\Users\li.7957\Desktop\choroColorRead\autoCorrelationAnalysisNegAll.py:311: RuntimeWarning: overflow encountered in ubyte_scalars
-  if not (abs(b - g) < 10 and abs(b-r) < 10 and abs(g - r)<10):
 moranIClusterCenters:-0.09858013622451645
 expI: -0.0018796992481203006
 thresholdLower: -0.062101239394925345
 thresholdUpper: 0.058341840898684744
 Negative spatial autocorrelation
+
+
+imageName: ohio_Blues_4_nonAuto.jpg
+new numClusterEach: 31
+moranIClusterCenters:0.08750594034844457
+expI: -0.008130081300813009
+thresholdLower: -0.11951112185460717
+thresholdUpper: 0.10325095925298115
+No clear spatial autocorrelation
+imageName: ohio_Blues_4_nonAuto1.jpg
+new numClusterEach: 36
+moranIClusterCenters:0.12377161611651241
+expI: -0.006993006993006993
+thresholdLower: -0.11058778321537917
+thresholdUpper: 0.09660176922936518
+Positive spatial autocorrelation
+imageName: ohio_Blues_6_nonAuto.jpg
+new numClusterEach: 21
+moranIClusterCenters:0.10394214063357161
+expI: -0.008
+thresholdLower: -0.11939738499704527
+thresholdUpper: 0.10339738499704529
+Positive spatial autocorrelation
+imageName: ohio_Blues_6_nonAuto1.jpg
+new numClusterEach: 33
+moranIClusterCenters:0.27687835833486096
+expI: -0.005076142131979695
+thresholdLower: -0.09697576968584923
+thresholdUpper: 0.08682348542188983
+Positive spatial autocorrelation
+imageName: ohio_Blues_8_nonAuto.jpg
+new numClusterEach: 25
+moranIClusterCenters:0.19075764528414924
+expI: -0.005025125628140704
+thresholdLower: -0.09570438361767784
+thresholdUpper: 0.08565413236139645
+Positive spatial autocorrelation
+imageName: ohio_Blues_8_nonAuto1.jpg
+new numClusterEach: 22
+moranIClusterCenters:0.15306621868531348
+expI: -0.005714285714285714
+thresholdLower: -0.10098701830678887
+thresholdUpper: 0.08955844687821744
+Positive spatial autocorrelation
+imageName: ohio_RdBu_4_nonAuto.jpg
+moranIClusterCenters:-0.13186477566102853
+expI: -0.01694915254237288
+thresholdLower: -0.1754150319276269
+thresholdUpper: 0.1415167268428811
+No clear spatial autocorrelation
+imageName: ohio_RdBu_4_nonAuto1.jpg
+new numClusterEach: 25
+moranIClusterCenters:0.4217576523069208
+expI: -0.010101010101010102
+thresholdLower: -0.1345531531333188
+thresholdUpper: 0.11435113293129862
+Positive spatial autocorrelation
+imageName: ohio_RdBu_6_nonAuto.jpg
+new numClusterEach: 17
+moranIClusterCenters:0.14141460209455778
+expI: -0.009900990099009901
+thresholdLower: -0.14504077851948996
+thresholdUpper: 0.12523879832147014
+Positive spatial autocorrelation
+imageName: ohio_RdBu_6_nonAuto1.jpg
+new numClusterEach: 21
+moranIClusterCenters:0.2073525271151081
+expI: -0.008
+thresholdLower: -0.12541335162270972
+thresholdUpper: 0.10941335162270974
+Positive spatial autocorrelation
+imageName: ohio_RdBu_8_nonAuto.jpg
+new numClusterEach: 16
+moranIClusterCenters:0.12396222546169941
+expI: -0.007874015748031496
+thresholdLower: -0.1219809569323075
+thresholdUpper: 0.1062329254362445
+Positive spatial autocorrelation
+imageName: ohio_RdBu_8_nonAuto1.jpg
+new numClusterEach: 18
+moranIClusterCenters:0.2730768105882638
+expI: -0.006993006993006993
+thresholdLower: -0.11700785900937663
+thresholdUpper: 0.10302184502336265
+Positive spatial autocorrelation
+imageName: us_Blues_4_nonAuto.jpg
+moranIClusterCenters:-0.19137940262844622
+expI: -0.0026455026455026454
+thresholdLower: -0.07432946665560658
+thresholdUpper: 0.06903846136460129
+Negative spatial autocorrelation
+imageName: us_Blues_4_nonAuto1.jpg
+moranIClusterCenters:-0.2126734613697804
+expI: -0.0029069767441860465
+thresholdLower: -0.07800909866099644
+thresholdUpper: 0.07219514517262433
+Negative spatial autocorrelation
+imageName: us_Blues_6_nonAuto.jpg
+new numClusterEach: 85
+moranIClusterCenters:-0.10738182273357023
+expI: -0.0016835016835016834
+thresholdLower: -0.05927561684499832
+thresholdUpper: 0.05590861347799495
+Negative spatial autocorrelation
+imageName: us_Blues_6_nonAuto1.jpg
+new numClusterEach: 121
+moranIClusterCenters:-0.048376604830333236
+expI: -0.001182033096926714
+thresholdLower: -0.04877283228787615
+thresholdUpper: 0.04640876609402272
+No clear spatial autocorrelation
+imageName: us_Blues_8_nonAuto.jpg
+moranIClusterCenters:-0.08410710098232473
+expI: -0.0014814814814814814
+thresholdLower: -0.053961212598494
+thresholdUpper: 0.05099824963553104
+Negative spatial autocorrelation
+imageName: us_Blues_8_nonAuto1.jpg
+moranIClusterCenters:-0.07626101554254362
+expI: -0.001392757660167131
+thresholdLower: -0.052555724404222584
+thresholdUpper: 0.04977020908388832
+Negative spatial autocorrelation
+imageName: us_RdBu_4_nonAuto.jpg
+new numClusterEach: 116
+moranIClusterCenters:-0.1341562855749945
+expI: -0.0017271157167530224
+thresholdLower: -0.05863391591557192
+thresholdUpper: 0.05517968448206588
+Negative spatial autocorrelation
+imageName: us_RdBu_4_nonAuto1.jpg
+moranIClusterCenters:-0.19844590670433274
+expI: -0.0029585798816568047
+thresholdLower: -0.07639494094296922
+thresholdUpper: 0.07047778117965561
+Negative spatial autocorrelation
+imageName: us_RdBu_6_nonAuto.jpg
+moranIClusterCenters:-0.15195535177555525
+expI: -0.0023923444976076554
+thresholdLower: -0.07105990927715024
+thresholdUpper: 0.06627522028193493
+Negative spatial autocorrelation
+imageName: us_RdBu_6_nonAuto1.jpg
+moranIClusterCenters:-0.10884251388853845
+expI: -0.0019880715705765406
+thresholdLower: -0.06395796123238608
+thresholdUpper: 0.059981818091233
+Negative spatial autocorrelation
+imageName: us_RdBu_8_nonAuto.jpg
+new numClusterEach: 100
+moranIClusterCenters:-0.07813949564037641
+expI: -0.0012515644555694619
+thresholdLower: -0.04959627277217782
+thresholdUpper: 0.0470931438610389
+Negative spatial autocorrelation
+imageName: us_RdBu_8_nonAuto1.jpg
+new numClusterEach: 121
+moranIClusterCenters:-0.15346127733639744
+expI: -0.001182033096926714
+thresholdLower: -0.04898697616553283
+thresholdUpper: 0.0466229099716794
+Negative spatial autocorrelation
+
+
+
+
+imageName: ohio_Blues_4_pos_small.jpg
+new numClusterEach: 43
+moranIClusterCenters:0.3643507341736591
+expI: -0.005847953216374269
+thresholdLower: -0.10266172189139974
+thresholdUpper: 0.0909658154586512
+Positive spatial autocorrelation
+imageName: ohio_Blues_4_pos_small1.jpg
+new numClusterEach: 31
+moranIClusterCenters:0.3596338637679116
+expI: -0.008130081300813009
+thresholdLower: -0.11945488838966226
+thresholdUpper: 0.10319472578803623
+Positive spatial autocorrelation
+imageName: ohio_Blues_6_pos_small.jpg
+new numClusterEach: 21
+moranIClusterCenters:0.33555381880822127
+expI: -0.008
+thresholdLower: -0.12057803185317226
+thresholdUpper: 0.10457803185317224
+Positive spatial autocorrelation
+imageName: ohio_Blues_6_pos_small1.jpg
+new numClusterEach: 24
+moranIClusterCenters:0.294556880830601
+expI: -0.006993006993006993
+thresholdLower: -0.11132760253038987
+thresholdUpper: 0.09734158854437588
+Positive spatial autocorrelation
+imageName: ohio_Blues_8_pos_small.jpg
+new numClusterEach: 18
+moranIClusterCenters:0.3424452754893859
+expI: -0.006993006993006993
+thresholdLower: -0.11303065589493572
+thresholdUpper: 0.09904464190892173
+Positive spatial autocorrelation
+imageName: ohio_Blues_8_pos_small1.jpg
+new numClusterEach: 18
+moranIClusterCenters:0.26020887622058664
+expI: -0.006993006993006993
+thresholdLower: -0.11573272575145806
+thresholdUpper: 0.10174671176544407
+Positive spatial autocorrelation
+imageName: ohio_RdBu_4_pos_small.jpg
+new numClusterEach: 31
+moranIClusterCenters:0.11908161548658863
+expI: -0.008130081300813009
+thresholdLower: -0.1192087500387456
+thresholdUpper: 0.10294858743711958
+Positive spatial autocorrelation
+imageName: ohio_RdBu_4_pos_small1.jpg
+new numClusterEach: 31
+moranIClusterCenters:0.1539660373146536
+expI: -0.008130081300813009
+thresholdLower: -0.11921234715133548
+thresholdUpper: 0.10295218454970946
+Positive spatial autocorrelation
+imageName: ohio_RdBu_6_pos_small.jpg
+new numClusterEach: 9
+moranIClusterCenters:0.23478362324304913
+expI: -0.018867924528301886
+thresholdLower: -0.19036806563085984
+thresholdUpper: 0.15263221657425607
+Positive spatial autocorrelation
+imageName: ohio_RdBu_6_pos_small1.jpg
+new numClusterEach: 21
+moranIClusterCenters:0.12071337936118585
+expI: -0.008
+thresholdLower: -0.121479871895154
+thresholdUpper: 0.10547987189515401
+Positive spatial autocorrelation
+imageName: ohio_RdBu_8_pos_small.jpg
+new numClusterEach: 25
+moranIClusterCenters:0.3235151343056852
+expI: -0.005025125628140704
+thresholdLower: -0.09896775998898653
+thresholdUpper: 0.08891750873270514
+Positive spatial autocorrelation
+imageName: ohio_RdBu_8_pos_small1.jpg
+new numClusterEach: 18
+expI: -0.006993006993006993
+thresholdLower: -0.11715006986096693
+thresholdUpper: 0.10316405587495295
+Positive spatial autocorrelation
+imageName: us_Blues_4_pos_small.jpg
+new numClusterEach: 116
+moranIClusterCenters:0.005421979328130274
+expI: -0.0021598272138228943
+thresholdLower: -0.06392112936022895
+thresholdUpper: 0.05960147493258316
+No clear spatial autocorrelation
+imageName: us_Blues_4_pos_small1.jpg
+new numClusterEach: 100
+moranIClusterCenters:0.05905886086356065
+expI: -0.002506265664160401
+thresholdLower: -0.07041531277713442
+thresholdUpper: 0.06540278144881362
+No clear spatial autocorrelation
+imageName: us_Blues_6_pos_small.jpg
+moranIClusterCenters:0.05829941776124094
+expI: -0.001976284584980237
+thresholdLower: -0.062292918370124
+thresholdUpper: 0.05834034920016352
+No clear spatial autocorrelation
+imageName: us_Blues_6_pos_small1.jpg
+new numClusterEach: 90
+moranIClusterCenters:0.10346572288209788
+expI: -0.001589825119236884
+thresholdLower: -0.05574716659413765
+thresholdUpper: 0.052567516355663875
+Positive spatial autocorrelation
+imageName: us_Blues_8_pos_small.jpg
+moranIClusterCenters:0.04983200055570175
+expI: -0.0018450184501845018
+thresholdLower: -0.06152275874491969
+thresholdUpper: 0.05783272184455068
+No clear spatial autocorrelation
+imageName: us_Blues_8_pos_small1.jpg
+moranIClusterCenters:0.09512664671566164
+expI: -0.0012836970474967907
+thresholdLower: -0.050747917274325774
+thresholdUpper: 0.04818052317933219
+Positive spatial autocorrelation
+imageName: us_RdBu_4_pos_small.jpg
+new numClusterEach: 89
+moranIClusterCenters:-0.10202242304261781
+expI: -0.0022522522522522522
+thresholdLower: -0.06789748683749422
+thresholdUpper: 0.0633929823329897
+Negative spatial autocorrelation
+imageName: us_RdBu_4_pos_small1.jpg
+moranIClusterCenters:-0.14111493110290943
+expI: -0.002932551319648094
+thresholdLower: -0.07713748612614778
+thresholdUpper: 0.0712723834868516
+Negative spatial autocorrelation
+imageName: us_RdBu_6_pos_small.jpg
+new numClusterEach: 98
+moranIClusterCenters:-0.10659869677439777
+expI: -0.00145985401459854
+thresholdLower: -0.053972395692246086
+thresholdUpper: 0.051052687663049004
+Negative spatial autocorrelation
+imageName: us_RdBu_6_pos_small1.jpg
+new numClusterEach: 76
+moranIClusterCenters:-0.05317990251029776
+expI: -0.002197802197802198
+thresholdLower: -0.06632322976959691
+thresholdUpper: 0.06192762537399251
+No clear spatial autocorrelation
+imageName: us_RdBu_8_pos_small.jpg
+new numClusterEach: 81
+moranIClusterCenters:-0.12935644226745896
+expI: -0.0017667844522968198
+thresholdLower: -0.0593903013410609
+thresholdUpper: 0.055856732436467264
+Negative spatial autocorrelation
+imageName: us_RdBu_8_pos_small1.jpg
+moranIClusterCenters:-0.13343816797270586
+expI: -0.0017889087656529517
+thresholdLower: -0.06022464983715156
+thresholdUpper: 0.05664683230584566
+Negative spatial autocorrelation
+
+
+imageName: ohio_Blues_4_pos_large.jpg
+moranIClusterCenters:0.6308305523428408
+expI: -0.012048192771084338
+thresholdLower: -0.14869694710491324
+thresholdUpper: 0.12460056156274456
+Positive spatial autocorrelation
+imageName: ohio_Blues_4_pos_large1.jpg
+moranIClusterCenters:0.5166288059853021
+expI: -0.012048192771084338
+thresholdLower: -0.1457275509792062
+thresholdUpper: 0.12163116543703752
+Positive spatial autocorrelation
+imageName: ohio_Blues_6_pos_large.jpg
+moranIClusterCenters:0.5888693452727473
+expI: -0.012048192771084338
+thresholdLower: -0.14998141697962789
+thresholdUpper: 0.1258850314374592
+Positive spatial autocorrelation
+imageName: ohio_Blues_6_pos_large1.jpg
+moranIClusterCenters:0.548466037148906
+expI: -0.015384615384615385
+thresholdLower: -0.1683663956552869
+thresholdUpper: 0.13759716488605614
+Positive spatial autocorrelation
+imageName: ohio_Blues_8_pos_large.jpg
+moranIClusterCenters:0.6139132259913026
+expI: -0.007874015748031496
+thresholdLower: -0.11986797756963974
+thresholdUpper: 0.10411994607357675
+Positive spatial autocorrelation
+imageName: ohio_Blues_8_pos_large1.jpg
+moranIClusterCenters:0.4643035003807169
+expI: -0.007874015748031496
+thresholdLower: -0.11933226704753047
+thresholdUpper: 0.10358423555146748
+Positive spatial autocorrelation
+imageName: ohio_RdBu_4_pos_large.jpg
+moranIClusterCenters:0.3749328059373969
+expI: -0.015873015873015872
+thresholdLower: -0.16917772273923348
+thresholdUpper: 0.13743169099320174
+Positive spatial autocorrelation
+imageName: ohio_RdBu_4_pos_large1.jpg
+moranIClusterCenters:0.29927493576323305
+expI: -0.015873015873015872
+thresholdLower: -0.16771476250850528
+thresholdUpper: 0.13596873076247354
+Positive spatial autocorrelation
+imageName: ohio_RdBu_6_pos_large.jpg
+moranIClusterCenters:0.5304941823233393
+expI: -0.015384615384615385
+thresholdLower: -0.18160863693622978
+thresholdUpper: 0.150839406166999
+Positive spatial autocorrelation
+imageName: ohio_RdBu_6_pos_large1.jpg
+moranIClusterCenters:0.4629075951666109
+expI: -0.012048192771084338
+thresholdLower: -0.15265880807250562
+thresholdUpper: 0.12856242253033692
+Positive spatial autocorrelation
+imageName: ohio_RdBu_8_pos_large.jpg
+moranIClusterCenters:0.5168086167869343
+expI: -0.009708737864077669
+thresholdLower: -0.140962966301764
+thresholdUpper: 0.12154549057360867
+Positive spatial autocorrelation
+imageName: ohio_RdBu_8_pos_large1.jpg
+moranIClusterCenters:0.5406211562246356
+expI: -0.006993006993006993
+thresholdLower: -0.11798167632273242
+thresholdUpper: 0.10399566233671843
+Positive spatial autocorrelation
+imageName: us_Blues_4_pos_large.jpg
+moranIClusterCenters:0.4193648634157292
+expI: -0.00392156862745098
+thresholdLower: -0.08754225812196595
+thresholdUpper: 0.07969912086706399
+Positive spatial autocorrelation
+imageName: us_Blues_4_pos_large1.jpg
+moranIClusterCenters:-0.020898339572420967
+expI: -0.005128205128205128
+thresholdLower: -0.10606579754836731
+thresholdUpper: 0.09580938729195707
+No clear spatial autocorrelation
+imageName: us_Blues_6_pos_large.jpg
+moranIClusterCenters:0.4160532674725402
+expI: -0.0014749262536873156
+thresholdLower: -0.05375645702936446
+thresholdUpper: 0.05080660452198983
+Positive spatial autocorrelation
+imageName: us_Blues_6_pos_large1.jpg
+moranIClusterCenters:0.4551033428283579
+expI: -0.0027397260273972603
+thresholdLower: -0.0730850310380606
+thresholdUpper: 0.06760557898326608
+Positive spatial autocorrelation
+imageName: us_Blues_8_pos_large.jpg
+moranIClusterCenters:0.4274228819435378
+expI: -0.0014727540500736377
+thresholdLower: -0.05335886066086511
+thresholdUpper: 0.05041335256071783
+Positive spatial autocorrelation
+imageName: us_Blues_8_pos_large1.jpg
+moranIClusterCenters:0.06956683182520158
+expI: -0.00398406374501992
+thresholdLower: -0.08878842624505623
+thresholdUpper: 0.0808202987550164
+No clear spatial autocorrelation
+imageName: us_RdBu_4_pos_large.jpg
+moranIClusterCenters:0.14842021118258486
+expI: -0.0030864197530864196
+thresholdLower: -0.07996752980545575
+thresholdUpper: 0.07379469029928291
+Positive spatial autocorrelation
+imageName: us_RdBu_4_pos_large1.jpg
+moranIClusterCenters:0.13115684269762898
+expI: -0.005847953216374269
+thresholdLower: -0.10769928481238038
+thresholdUpper: 0.09600337837963184
+Positive spatial autocorrelation
+imageName: us_RdBu_6_pos_large.jpg
+moranIClusterCenters:0.05404531006938748
+expI: -0.0024752475247524753
+thresholdLower: -0.07100180558861148
+thresholdUpper: 0.06605131053910653
+No clear spatial autocorrelation
+imageName: us_RdBu_6_pos_large1.jpg
+moranIClusterCenters:0.15227982825200329
+expI: -0.004329004329004329
+thresholdLower: -0.09337141577306239
+thresholdUpper: 0.08471340711505372
+Positive spatial autocorrelation
+imageName: us_RdBu_8_pos_large.jpg
+moranIClusterCenters:0.044287299991534516
+expI: -0.002320185614849188
+thresholdLower: -0.06859711286586534
+thresholdUpper: 0.06395674163616696
+No clear spatial autocorrelation
+imageName: us_RdBu_8_pos_large1.jpg
+moranIClusterCenters:0.18834841534633526
+expI: -0.0031847133757961785
+thresholdLower: -0.08091748233448225
+thresholdUpper: 0.07454805558288989
+Positive spatial autocorrelation
