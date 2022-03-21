@@ -50,7 +50,7 @@ ax.scatter(labels, yList, s = 5,c = 'black')
 ax.set_xlabel('Index of maps')
 ax.set_ylabel('Number of responses')
 ax.yaxis.set_major_locator(MaxNLocator(integer=True))
-ax.set_title('Maps in the no-autocorrelation group')
+ax.set_title('Maps in the no-association group')
 ax.legend(framealpha = 0.5,fontsize = 'small', loc='center left', bbox_to_anchor=(1, 0.5))
 
 plt.show()

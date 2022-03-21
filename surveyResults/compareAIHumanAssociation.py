@@ -6,16 +6,16 @@ import numpy as np
 labels = [str(i) for i in range(1,25)]
 
 # negative
-similar_count = [4,3,0,1,5,2,3,1,5,0,2,1,0,0,4,3,3,1,3,2,0,2,1,1]
-diff_count = [1,7,2,8,5,6,4,9,11,3,3,4,4,6,5,4,8,9,4,6,5,4,3,5]
-noClear_count = [9,9,6,4,6,11,6,7,5,6,8,4,5,9,6,2,8,9,9,3,8,4,9,8]
-answerAI = [2,2,2,2, 2,2,2,2, 2,2,0,2, 2,2,2,2, 0,2,0,2, 0,2,0,2]
+# similar_count = [4,3,0,1,5,2,3,1,5,0,2,1,0,0,4,3,3,1,3,2,0,2,1,1]
+# diff_count = [1,7,2,8,5,6,4,9,11,3,3,4,4,6,5,4,8,9,4,6,5,4,3,5]
+# noClear_count = [9,9,6,4,6,11,6,7,5,6,8,4,5,9,6,2,8,9,9,3,8,4,9,8]
+# answerAI = [2,2,2,2, 2,2,2,2, 2,2,0,2, 2,2,2,2, 0,2,0,2, 0,2,0,2]
 
 # # no-autocorrelation
-# similar_count = [7,5,4,2,4,0,5,2,7,2,4,2,5,1,5,1,1,3,3,1,2,3,2,0]
-# diff_count = [1,3,6,2,2,5,5,2,3,8,4,5,5,3,7,3,4,8,6,4,4,4,9,5]
-# noClear_count = [5,5,3,7,5,8,8,4,8,7,6,7,4,6,4,5,5,4,12,9,5,6,7,6]
-# answerAI = [0,2,1,2, 1,2,1,0, 1,2,1,2, 0,2,1,2, 1,2,1,2, 1,2,1,2]
+similar_count = [7,5,4,2,4,0,5,2,7,2,4,2,5,1,5,1,1,3,3,1,2,3,2,0]
+diff_count = [1,3,6,2,2,5,5,2,3,8,4,5,5,3,7,3,4,8,6,4,4,4,9,5]
+noClear_count = [5,5,3,7,5,8,8,4,8,7,6,7,4,6,4,5,5,4,12,9,5,6,7,6]
+answerAI = [0,2,1,2, 1,2,1,0, 1,2,1,2, 0,2,1,2, 1,2,1,2, 1,2,1,2]
 
 # # small positive
 # similar_count = [11,15,11,14,10,14,16,14,12,18,12,9,8,7,8,5,10,9,7,11,5,11,8,10]
@@ -65,7 +65,7 @@ ax.scatter(labels, yList, s = 5,c = 'black')
 ax.set_xlabel('Index of maps')
 ax.set_ylabel('Number of responses')
 ax.yaxis.set_major_locator(MaxNLocator(integer=True))
-ax.set_title('Maps in the negative group')
+ax.set_title('Maps in the no-association group')
 ax.legend(framealpha = 0.5,fontsize = 'small',loc='center left', bbox_to_anchor=(1, 0.5))
 
 plt.show()
