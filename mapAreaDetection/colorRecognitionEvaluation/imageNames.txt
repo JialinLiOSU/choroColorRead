@@ -1,0 +1,100 @@
+		TP	FP	FN			Precision	Recall
+ohio_Blues_4_neg.jpg		4	0	0			1	1
+ohio_Blues_4_neg1.jpg      		4	0	0			1	1
+ohio_Blues_4_nonAuto.jpg   		4	0	0			1	1
+ohio_Blues_4_nonAuto1.jpg  		4	0	0			1	1
+ohio_Blues_4_pos_large.jpg 		4	0	0			1	1
+ohio_Blues_4_pos_large1.jpg		4	0	0			1	1
+ohio_Blues_4_pos_small.jpg 		4	0	0			1	1
+ohio_Blues_4_pos_small1.jpg		4	0	0			1	1
+ohio_Blues_6_neg.jpg       		6	0	0			1	1
+ohio_Blues_6_neg1.jpg		6	0	0			1	1
+ohio_Blues_6_nonAuto.jpg		6	0	0			1	1
+ohio_Blues_6_nonAuto1.jpg		6	0	0			1	1
+ohio_Blues_6_pos_large.jpg		6	0	0			1	1
+ohio_Blues_6_pos_large1.jpg		6	0	0			1	1
+ohio_Blues_6_pos_small.jpg		6	0	0			1	1
+ohio_Blues_6_pos_small1.jpg		6	0	0			1	1
+ohio_Blues_8_neg.jpg		8	0	0			1	1
+ohio_Blues_8_neg1.jpg		8	0	0			1	1
+ohio_Blues_8_nonAuto.jpg		8	0	0			1	1
+ohio_Blues_8_nonAuto1.jpg		8	0	0			1	1
+ohio_Blues_8_pos_large.jpg		8	0	0			1	1
+ohio_Blues_8_pos_large1.jpg		8	0	0			1	1
+ohio_Blues_8_pos_small.jpg		8	0	0			1	1
+ohio_Blues_8_pos_small1.jpg		8	0	0			1	1
+ohio_RdBu_4_neg.jpg		4	0	0			1	1
+ohio_RdBu_4_neg1.jpg		4	0	0			1	1
+ohio_RdBu_4_nonAuto.jpg		4	0	0			1	1
+ohio_RdBu_4_nonAuto1.jpg		4	0	0			1	1
+ohio_RdBu_4_pos_large.jpg		4	0	0			1	1
+ohio_RdBu_4_pos_large1.jpg		4	0	0			1	1
+ohio_RdBu_4_pos_small.jpg		4	0	0			1	1
+ohio_RdBu_4_pos_small1.jpg		4	0	0			1	1
+ohio_RdBu_6_neg.jpg		6	0	0			1	1
+ohio_RdBu_6_neg1.jpg		6	0	0			1	1
+ohio_RdBu_6_nonAuto.jpg		6	0	0			1	1
+ohio_RdBu_6_nonAuto1.jpg		6	0	0			1	1
+ohio_RdBu_6_pos_large.jpg		6	0	0			1	1
+ohio_RdBu_6_pos_large1.jpg		6	0	0			1	1
+ohio_RdBu_6_pos_small.jpg		6	0	0			1	1
+ohio_RdBu_6_pos_small1.jpg		6	0	0			1	1
+ohio_RdBu_8_neg.jpg		8	0	0			1	1
+ohio_RdBu_8_neg1.jpg		8	0	0			1	1
+ohio_RdBu_8_nonAuto.jpg		8	0	0			1	1
+ohio_RdBu_8_nonAuto1.jpg		8	0	0			1	1
+ohio_RdBu_8_pos_large.jpg		8	0	0			1	1
+ohio_RdBu_8_pos_large1.jpg		8	0	0			1	1
+ohio_RdBu_8_pos_small.jpg		8	0	0			1	1
+ohio_RdBu_8_pos_small1.jpg		8	0	0			1	1
+								
+us_Blues_4_neg.jpg		4	0	0			1	1
+us_Blues_4_neg1.jpg		4	0	0			1	1
+us_Blues_4_nonAuto.jpg		4	0	0			1	1
+us_Blues_4_nonAuto1.jpg		4	0	0			1	1
+us_Blues_4_pos_large.jpg		4	0	0			1	1
+us_Blues_4_pos_large1.jpg		3	1	1	"107, 126, 140"	"33, 114, 180"	0.75	0.75
+us_Blues_4_pos_small.jpg		4	0	0			1	1
+us_Blues_4_pos_small1.jpg		4	0	0			1	1
+us_Blues_6_neg.jpg		6	1	0	110£¬131£¬150		0.857142857	1
+us_Blues_6_neg1.jpg		6	1	0	111£¬132£¬149		0.857142857	1
+us_Blues_6_nonAuto.jpg		6	1	0	115£¬132£¬148		0.857142857	1
+us_Blues_6_nonAuto1.jpg		6	0	0			1	1
+us_Blues_6_pos_large.jpg		6	0	0			1	1
+us_Blues_6_pos_large1.jpg		5	1	1	73£¬126£¬166	"50, 130, 189"	0.833333333	0.833333333
+us_Blues_6_pos_small.jpg		6	0	0			1	1
+us_Blues_6_pos_small1.jpg		5	2	1	"118, 132, 143], [0, 84, 171"	"8, 82, 157"	0.714285714	0.833333333
+us_Blues_8_neg.jpg		8	1	0	"[95, 140, 159]"		0.888888889	1
+us_Blues_8_neg1.jpg		8	0	0			1	1
+us_Blues_8_nonAuto.jpg		8	0	0			1	1
+us_Blues_8_nonAuto1.jpg		8	1	0	"92, 140, 160"		0.888888889	1
+us_Blues_8_pos_large.jpg		7	1	1	"121, 132, 136"	"222, 234, 246"	0.875	0.875
+us_Blues_8_pos_large1.jpg		5	1	3	"108, 134, 149"	"33, 114, 180]107, 174, 216],[8, 69, 149"	0.833333333	0.625
+us_Blues_8_pos_small.jpg		7	0	1	"(8, 69, 149)"		1	0.875
+us_Blues_8_pos_small1.jpg		8	1	0	"115, 132, 142"		0.888888889	1
+us_RdBu_4_neg.jpg		4	1	0	"109, 137, 141"		0.8	1
+us_RdBu_4_neg1.jpg		4	1	0	"117, 133, 146"		0.8	1
+us_RdBu_4_nonAuto.jpg		4	1	0	"120, 131, 117"		0.8	1
+us_RdBu_4_nonAuto1.jpg		4	0	0			1	1
+us_RdBu_4_pos_large.jpg		4	1	0	"137, 122, 125"		0.8	1
+us_RdBu_4_pos_large1.jpg		4	0	0			1	1
+us_RdBu_4_pos_small.jpg		4	1	0	"158, 131, 122"		0.8	1
+us_RdBu_4_pos_small1.jpg		4	0	0			1	1
+us_RdBu_6_neg.jpg		6	1	0	"81, 113, 151"		0.857142857	1
+us_RdBu_6_neg1.jpg		6	3	0	"123, 136, 144], [138, 55, 65], [110, 126, 141"		0.666666667	1
+us_RdBu_6_nonAuto.jpg		6	0	0			1	1
+us_RdBu_6_nonAuto1.jpg		5	0	1		"112, 141, 157]"	1	0.833333333
+us_RdBu_6_pos_large.jpg		5	0	1		"112, 130, 144"	1	0.833333333
+us_RdBu_6_pos_large1.jpg		4	0	2		"104, 169, 207]33, 101, 172"	1	0.666666667
+us_RdBu_6_pos_small.jpg		6	1	0	"[116, 129, 137]"		0.857142857	1
+us_RdBu_6_pos_small1.jpg		6	1	0	"117, 136, 134"		0.857142857	1
+us_RdBu_8_neg.jpg		8	1	0	"138, 125, 108"		0.888888889	1
+us_RdBu_8_neg1.jpg		8	0	0			1	1
+us_RdBu_8_nonAuto.jpg		8	1	0	"122, 141, 148"		0.888888889	1
+us_RdBu_8_nonAuto1.jpg		6	1	2	"104, 138, 165"	"177, 24, 44]244, 166, 130"	0.857142857	0.75
+us_RdBu_8_pos_large.jpg		8	1	0	"44, 120, 108"		0.888888889	1
+us_RdBu_8_pos_large1.jpg		7	2	1	"118, 132, 135]93, 138, 171"	"33, 101, 172)"	0.777777778	0.875
+us_RdBu_8_pos_small.jpg		6	2	2	"[110, 133, 151], [94, 141, 157]"	"177, 24, 44]244, 166, 130"	0.75	0.75
+us_RdBu_8_pos_small1.jpg		8	1	0	"108, 124, 140"		0.888888889	1
+						All	0.952318948	0.973958333
+						US	0.904637897	0.947916667

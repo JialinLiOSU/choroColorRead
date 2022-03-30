@@ -293,10 +293,19 @@ def main():
 
     imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\classifiedQuantiles\nonAuto'
     # imageName = 'ohio_Blues_4_neg1.jpg'
+    
+
     testImages = os.listdir(imagePath)
+    afterTarget = False
     for imageName in testImages:
         print('imageName: ' + imageName)
         detectResult = findDetectResult(detectResults, imageName)
+
+        if imageName == 'us_Blues_6_nonAuto.jpg':
+            afterTarget = True
+        if afterTarget == False:
+            continue
+
         property = detectResult[1]
         boxes = property['rois']
         masks = property['masks']
@@ -438,7 +447,10 @@ def main():
             kmeansResultList = []
             coordCentersList = []
             for i, pixelCoordsSample in enumerate(pixelCoordListSampleList):
-                kmeansResult = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[i])
+                if len(pixelCoordListSampleList[i]) < numClusterEach:
+                    continue
+                else:
+                    kmeansResult = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[i])
                 kmeansResultList.append(kmeansResult)
                 zList = [colorSumRGBList[i] for j in range(len(pixelCoordListSampleList[i]))]
                 zListList.append(zList)

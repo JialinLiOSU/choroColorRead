@@ -9,6 +9,7 @@ savePath = r'C:\Users\jiali\Desktop\shuaichen\processed_images'
 testImageDir = os.listdir(path)
 USBoundResults = []
 for img in testImageDir:
+    img = 'us_Blues_4_nonAuto.jpg'
     if img[-4:] == 'json':
         continue
     im = cv.imread(path + '\\' +img)
@@ -40,9 +41,9 @@ for img in testImageDir:
 
     USBoundResults.append((img,im_contour,contours))
     break
-    # cv.imwrite(savePath + '\\' + img, im) 
-    # cv.imshow("Display window", im)
-    # k = cv.waitKey(0)
+    cv.imwrite(img, im) 
+    cv.imshow("Display window", im)
+    k = cv.waitKey(0)
 with open(r'C:\Users\jiali\Desktop' + '\\' + 'usBoundAnnotation.pickle', 'wb') as f:
 	pickle.dump(im_contour,f)
     
