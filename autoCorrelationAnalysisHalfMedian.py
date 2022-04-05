@@ -296,7 +296,7 @@ def main():
     with open(r'C:\Users\jiali\Desktop\choroColorRead\colorRecognitionEvaluation' + '\\' + 'colorsOrderedImagesRemoveGrey3.pickle', 'rb') as f:
         colorsOrderedImages = pickle.load(f)
 
-    imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\classifiedQuantiles\pos_small'
+    imagePath = r'C:\Users\jiali\Desktop\choroColorRead\generatedMaps\classifiedQuantiles\pos_large'
     # imageName = 'ohio_Blues_4_neg1.jpg'
     testImages = os.listdir(imagePath)
     for imageName in testImages:
@@ -416,13 +416,13 @@ def main():
         zCentersAll = []
         coordCentersList = []
         coordCentersAll = []
-        needLineGrid = False
+        
         for i,silKmeansResult in enumerate(silKmeansResultList):
             # print('debug')
             zCentersTemp = [colorSumRGBList[i] for j in range(silKmeansResult.cluster_centers_.shape[0])]
             zCentersList.append(zCentersTemp)
-            if len(zCentersTemp) <= 10:
-                needLineGrid = True
+            # if len(zCentersTemp) <= 10:
+            #     needLineGrid = True
             zCentersAll += zCentersTemp
             coordCenters = silKmeansResult.cluster_centers_.tolist()
             coordCentersList.append(coordCenters)
@@ -430,7 +430,7 @@ def main():
         
         
         ### any number of cluster centers not larger than 10, conduct grid line algorithm
-        if needLineGrid:
+        if True:
             xList = [pixelCoord[0] for pixelCoord in pixelCoordListSampleAll]
             yList = [pixelCoord[1] for pixelCoord in pixelCoordListSampleAll]
             xMin, xMax = min(xList), max(xList)
@@ -459,33 +459,40 @@ def main():
             numClusterEach = math.ceil(totalNumCluster / len(colorGreyList))
             print('new numClusterEach: '+str(numClusterEach))
 
-            kmeansResultList = []
-            coordCentersList = []
-            for i, pixelCoordsSample in enumerate(pixelCoordListSampleList):
+            needLineGrid = False
+            for zCenterTemp in zCentersList:
+                if len(zCenterTemp) <= numClusterEach / 2.0:
+                    needLineGrid = True
 
-                if len(pixelCoordListSampleList[i]) < numClusterEach:
-                    continue
-                else:
-                    kmeansResult = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[i])
-                kmeansResultList.append(kmeansResult)
-                zList = [colorSumRGBList[i] for j in range(len(pixelCoordListSampleList[i]))]
-                zListList.append(zList)
-                zListAll += zList 
+            if needLineGrid:
 
-            # kmeansHighestClass = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[indexMinGreyColor])
-            zCentersList = []
-            zCentersAll = []
-            coordCentersList = []
-            coordCentersAll = []
-            for i,kmeansResult in enumerate(kmeansResultList):
-                # print('debug')
-                zCentersTemp = [colorSumRGBList[i] for j in range(kmeansResult.cluster_centers_.shape[0])]
-                zCentersList.append(zCentersTemp)
-                
-                zCentersAll += zCentersTemp
-                coordCenters = kmeansResult.cluster_centers_.tolist()
-                coordCentersList.append(coordCenters)
-                coordCentersAll += coordCenters
+                kmeansResultList = []
+                coordCentersList = []
+                for i, pixelCoordsSample in enumerate(pixelCoordListSampleList):
+
+                    if len(pixelCoordListSampleList[i]) < numClusterEach:
+                        continue
+                    else:
+                        kmeansResult = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[i])
+                    kmeansResultList.append(kmeansResult)
+                    zList = [colorSumRGBList[i] for j in range(len(pixelCoordListSampleList[i]))]
+                    zListList.append(zList)
+                    zListAll += zList 
+
+                # kmeansHighestClass = KMeans(n_clusters = numClusterEach).fit(pixelCoordListSampleList[indexMinGreyColor])
+                zCentersList = []
+                zCentersAll = []
+                coordCentersList = []
+                coordCentersAll = []
+                for i,kmeansResult in enumerate(kmeansResultList):
+                    # print('debug')
+                    zCentersTemp = [colorSumRGBList[i] for j in range(kmeansResult.cluster_centers_.shape[0])]
+                    zCentersList.append(zCentersTemp)
+                    
+                    zCentersAll += zCentersTemp
+                    coordCenters = kmeansResult.cluster_centers_.tolist()
+                    coordCentersList.append(coordCenters)
+                    coordCentersAll += coordCenters
 
         ### Calculate moran's I for cluster centers
         numCenters = len(zCentersAll)
@@ -525,48 +532,5 @@ def main():
             print('Positive spatial autocorrelation')
         else:
             print('No clear spatial autocorrelation')
-
-
-
-        ### calculate theoretical expected value and variance of Moran's I
-        # expected value
-        # N = numCenters
-        # print(N)
-        # expI = -(1/(N - 1))
-        # print('expI: ' + str(expI))
-
-        # # variance
-        # s0 = sum([sum(wRow) for wRow in w])
-        # s1 = 0
-        # for i in range(len(w)):
-        #     for j in range(len(w[0])):
-        #         s1 += (w[i][j] + w[j][i])**2
-        # s1 = s1 /2
-        # s2 = 0
-        # for k in range(N):
-        #     s2kj = 0
-        #     s2ik = 0
-        #     for j in range(N):
-        #         s2kj += w[k][j]
-        #     for i in range(N):
-        #         s2ik += w[i][k]
-        #     s2 += (s2kj + s2ik)**2
-        # varI = ((N**2)*s1 - N*s2 + 3*(s0**2))/((N**2 -1)*(s0**2)) - expI**2
-        # sigma = varI**(0.5)
-        # thresholdLower = expI - 2 * sigma
-        # print('thresholdLower: ' + str(thresholdLower))
-        # thresholdUpper = expI + 2 * sigma
-        # print('thresholdUpper: ' + str(thresholdUpper))
-
-        # if moranIClusterCenters < thresholdLower:
-        #     print('Negative spatial autocorrelation')
-        # elif moranIClusterCenters > thresholdUpper:
-        #     print('Positive spatial autocorrelation')
-        # else:
-        #     print('No clear spatial autocorrelation')
-
-
-
-    
 
 if __name__ == "__main__":    main()
